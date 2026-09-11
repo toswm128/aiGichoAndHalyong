@@ -19,10 +19,44 @@
 # print(int_sum(1, '2', True, "ads", 5))
 
 
-def middle(list):
-    i = len(list) // 2
-    return list[i]
+# def middle(list):
+#     i = len(list) // 2
+#     return list[i]
 
 
-print(middle([1, 2, 3, 4, 5]))
-print(middle([1, 2, 3, 4]))
+# print(middle([1, 2, 3, 4, 5]))
+# print(middle([1, 2, 3, 4]))
+
+
+# def executor(fn):
+#     return fn()
+
+
+# def hello():
+#     return "hello"
+
+
+# def bye():
+#     return "bye"
+
+
+# print(executor(hello))
+# print(executor(bye))
+
+
+def add(n1, n2):
+    return n1 + n2
+
+
+def sub(n1, n2):
+    return n1-n2
+
+
+def selector(type):
+    return add if type == 1 else sub
+
+
+result = selector(1)
+print(result(3, 3))
+result = selector(111)
+print(result(3, 5))
