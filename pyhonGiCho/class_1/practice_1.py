@@ -98,9 +98,9 @@
 # print(s2)
 
 
-s = [1, 5, 3, 9, 11, 7]
-s1 = sorted(s)
-print(s)
-print(s1)
-s.sort()
-print(s)
+# s = [1, 5, 3, 9, 11, 7]
+# s1 = sorted(s)
+# print(s)
+# print(s1)
+# s.sort()
+# print(s)
