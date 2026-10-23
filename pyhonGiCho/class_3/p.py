@@ -44,19 +44,19 @@
 # print(executor(bye))
 
 
-def add(n1, n2):
-    return n1 + n2
+# def add(n1, n2):
+#     return n1 + n2
 
 
-def sub(n1, n2):
-    return n1-n2
+# def sub(n1, n2):
+#     return n1-n2
 
 
-def selector(type):
-    return add if type == 1 else sub
+# def selector(type):
+#     return add if type == 1 else sub
 
 
-result = selector(1)
-print(result(3, 3))
-result = selector(111)
-print(result(3, 5))
+# result = selector(1)
+# print(result(3, 3))
+# result = selector(111)
+# print(result(3, 5))
