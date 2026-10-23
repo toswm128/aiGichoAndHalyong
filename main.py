@@ -1,7 +1,15 @@
 import numpy as np
 
 
-heights = np.array([1.83, 1.76, 1.69, 1.86, 1.77, 1.73, 1.79])
-weights = np.array([86, 74, 59, 95, 80, 68, 71])
+arr = [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]]
+np_arr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
 
-print(weights/heights**2)
+print(arr[1:3])
+# print(np_arr[1, 1])
+
+
+sub_arr = arr[0:][1:3]
+# print(sub_arr)
+
+sub_np_arr = np_arr[1:, 1:3]
+print(sub_np_arr)
