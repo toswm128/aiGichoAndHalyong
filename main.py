@@ -1,7 +1,12 @@
 import numpy as np
 
+values = np.array([-10, 50, 65, 80, 95, 110])
 
-heights = np.array([1.83, 1.76, 1.69, 1.86, 1.77, 1.73, 1.79])
-weights = np.array([86, 74, 59, 95, 80, 68, 71])
+selected = values[(values >= 60) & (values <= 90)]
+print(selected)
 
-print(weights/heights**2)
+values[values < 0] = 0
+print(values)
+
+result = np.where(values >= 60, "합격", "불합격")
+print(result)
